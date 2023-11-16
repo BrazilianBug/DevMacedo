@@ -1,0 +1,72 @@
+footer{
+    height: 440px;
+    border-radius: 33px 33px 0px 0px;
+    background-color: var(--gray-dark);
+    margin: 0px 12px;
+    margin-top: 50px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 80%;
+}
+.footer-content-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 20%;
+}
+.footer-item{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0; 
+}
+
+.icon-flex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.icon-flex .mail-icon{
+    margin: 0px 10px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-item-left{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0; 
+}
+
+.footer-item-left .icon-flex{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 16px;
+}
+.brand-deg{
+    height: 50px;
+}
+
+.brand-flex{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+}
