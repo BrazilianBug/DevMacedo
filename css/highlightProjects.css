@@ -32,15 +32,69 @@
     align-self: auto;
 }
 
-.hightlight-card:nth-child(1){
+.hightlight-card:nth-child(1) {
     order: 1;
     flex-grow: 1;
 }
-.hightlight-card:nth-child(2){
+
+.hightlight-card:nth-child(2) {
     order: 2;
     flex-grow: 2;
 }
-.card{
+
+.card-wrapper {
+    background-color: wheat;
+    border-radius: 33px;
+    height: 500px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-items: end;
+
+}
+
+.card-wrapper img {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+}
+
+.card-content{
+   
+}
+
+.card-bottom {
+    background-color: var(--white);
+    border-radius: 33px;
+    padding: 16px;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.card-icon {
+    border-radius: 1000px;
+    background-color: var(--ice);
+    padding: 9px;
+    fill: var(--gray-dark);
+}
+
+.card-icon img:hover {
+    cursor: pointer;
+}
+
+
+.card {
     width: 100%;
     height: 300px;
     background-color: brown;
@@ -48,25 +102,35 @@
     text-align: center;
 }
 
-.highlights {  display: grid;
+.highlights {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
     gap: 24px 24px;
     grid-auto-flow: row;
     grid-template-areas:
-      "item1 item1 item1 item1 item1 item2 item2 item2 item2 item2 item2 item2"
-      "item3 item3 item3 item3 item3 item3 item3 item4 item4 item4 item4 item4"
-      "item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 item5";
-  }
-  
-  .item1 { grid-area: item1; }
-  
-  .item2 { grid-area: item2; }
-  
-  .item3 { grid-area: item3; }
-  
-  .item5 { grid-area: item5; }
-  
-  .item4 { grid-area: item4; }
-  
+        "item1 item1 item1 item1 item1 item2 item2 item2 item2 item2 item2 item2"
+        "item3 item3 item3 item3 item3 item3 item3 item4 item4 item4 item4 item4"
+        "item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 item5";
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item4 {
+    grid-area: item4;
+}
