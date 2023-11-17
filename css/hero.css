@@ -1,0 +1,116 @@
+header {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 18px;
+    z-index: 1;
+    position: fixed;
+}
+
+.navbar {
+    background: var(--white);
+    padding-inline: 36px;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.navbar a {
+    font-family: var(--font2);
+    padding: 18px 20px;
+    color: var(--black-gray);
+}
+
+.navbar a:hover {
+    color: var(--black)
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    height: 91vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.container-hero-video {
+    height: auto;
+    margin: 12px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    border-radius: 33px;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
+    mask-image: -webkit-radial-gradient(#fff, #000);
+}
+
+.container-hero-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.container-hero-children {
+    position: relative;
+    z-index: 3;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.container-content-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 16%;
+    display: inline;
+}
+
+.container-content {
+    color: var(--white);
+    text-align: start;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-content p {
+    max-width: 612px;
+}
+
+.container-content a {
+    align-self: start;
+}
