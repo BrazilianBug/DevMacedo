@@ -33,6 +33,10 @@
     .about-image {
         max-width: 80%;
     }
+    .navbar a {
+        padding: 18px 20px;
+
+    }
 
 
 }

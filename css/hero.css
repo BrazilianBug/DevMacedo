@@ -26,7 +26,7 @@ header {
 
 .navbar a {
     font-family: var(--font2);
-    padding: 18px 20px;
+    padding: 18px 10px;
     color: var(--black-gray);
 }
 
