@@ -1,8 +1,12 @@
+/* Importar o arquivo com estilos específicos para diferentes seções primeiro */
+
 @import url(about.css);
 @import url(highlightProjects.css);
 @import url(footer.css);
 @import url(hero.css);
 @import url(components.css);
 @import url(typography.css);
+
 @import url(response.css);
+
 @import url(global.css);

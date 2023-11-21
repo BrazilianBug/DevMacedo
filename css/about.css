@@ -1,6 +1,5 @@
 .about {
     margin-bottom: 42px;
-
 }
 
 .about-head {
@@ -18,8 +17,8 @@
 
 .about-content {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -27,7 +26,7 @@
 }
 
 .about-content div {
-    width: 50%;
+    width: 100%;
 }
 
 .about-image,
@@ -35,15 +34,19 @@
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
-    align-self: auto;
+    align-self: start;
     order: 0;
+    max-width: 100%;
+    text-align: justify;
 }
-.about-image{
+
+.about-image {
     display: flex;
     justify-content: center;
-    align-items: start;
-    align-content: start;
-    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    max-width: 100%;
 }
 
 .about-text h3 {
@@ -51,15 +54,15 @@
 }
 
 .qualification-details {
-    width: 100% !important;
+
     padding-bottom: 16px;
 }
-.about-carrer{
-    width: 100%!important;
+
+.about-carrer {
     margin-bottom: 24px;
 }
-.skills-flex{
-    width: 100%!important;
+
+.skills-flex {
     display: flex;
     justify-content: start;
     align-items: flex-start;
@@ -67,4 +70,5 @@
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 24px;
+
 }
