@@ -9,24 +9,99 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+
 </head>
 
-<body style="text-align: center;">
-    <div class="container">
-        <p class="badge">
-            Badge
-        </p>
-        <p style="text-align: center;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui aliquid dolores sed
-            beatae placeat excepturi reprehenderit ad eveniet soluta mollitia expedita accusantium sapiente quaerat,
-            veritatis dolorem enim adipisci voluptate commodi.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui aliquid dolores sed
-            beatae placeat excepturi reprehenderit ad eveniet soluta mollitia expedita accusantium sapiente quaerat,
-            veritatis dolorem enim adipisci voluptate commodiLorem ipsum, dolor sit amet consectetur adipisicing elit. Qui aliquid dolores sed
-            beatae placeat excepturi reprehenderit ad eveniet soluta mollitia expedita accusantium sapiente quaerat,
-            veritatis dolorem enim adipisci voluptate commodiLorem ipsum, dolor sit amet consectetur adipisicing elit. Qui aliquid dolores sed
-            beatae placeat excepturi reprehenderit ad eveniet soluta mollitia expedita accusantium sapiente quaerat,
-            veritatis dolorem enim adipisci voluptate commodi</p>
-    </div>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    margin: 0;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    position: relative;
+}
+
+nav a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; /* Altura do destaque, ajuste conforme necessário */
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+nav a:hover:before {
+    background-color: yellow;
+}
+
+.section {
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: relative;
+}
+
+#section1 {
+    background-color: #ffcccc;
+}
+
+#section2 {
+    background-color: #ccffcc;
+}
+
+#section3 {
+    background-color: #ccccff;
+}
+
+#section1:target a:before {
+    background-color: transparent;
+}
+
+#section2:target a:before {
+    background-color: yellow; /* Altere a cor conforme necessário */
+}
+
+#section3:target a:before {
+    background-color: red; /* Altere a cor conforme necessário */
+}
+
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+        <div id="highlight"></div>
+    </nav>
+
+    <div id="section1" class="section">Section 1 Content</div>
+    <div id="section2" class="section">Section 2 Content</div>
+    <div id="section3" class="section">Section 3 Content</div>
 </body>
 
 </html>
