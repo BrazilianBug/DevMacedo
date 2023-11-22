@@ -1,11 +1,29 @@
 :root {
     --white: #FFF;
+    --background: #fff;
     --gray: #9E9E9E;
     --ice: #F4F4F4;
     --gray-dark: #1E1E1E;
     --black: #000000;
     --font2: 'Outfit', sans-serif;
+
+    /* Dark Theme */
+
+    /* 
+    --white: #000000;
+    --background: #1E1E1E;
+    --gray: #9E9E9E;
+    --ice: #F4F4F4;
+    --gray-dark: #1E1E1E;
+    --black: #ffffff;
+    */
 }
+
+/* Dark Theme */
+body{
+    background-color: var(--background);
+}
+
 
 * {
     padding: 0px;
@@ -57,5 +75,3 @@ html {
 .text-white {
     color: var(--white)
 }
-
-
