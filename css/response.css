@@ -20,6 +20,9 @@
         flex-wrap: wrap;
         flex-direction: row;
     }
+    #home{
+        display: block;
+    }
 
 }
 

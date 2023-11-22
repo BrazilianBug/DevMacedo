@@ -33,6 +33,10 @@ header {
     color: var(--black)
 }
 
+#home{
+    display: none;
+}
+
 #hero {
     display: flex;
     flex-direction: column;
