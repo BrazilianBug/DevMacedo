@@ -1,14 +1,25 @@
 :root {
+    /* Colors */
     --white: #FFF;
-    --background: #fff;
     --gray: #9E9E9E;
     --ice: #F4F4F4;
     --gray-dark: #1E1E1E;
     --black: #000000;
-    --font2: 'Outfit', sans-serif;
 
+    /* Typography */
+    --text-primary: var(--gray-dark);
+    --text-secondary: var(--gray);
+    --text-invert: var(--white);
+    
+    /* Design */
+    --background: var(--white);
+    --paper: var(--ice);
+
+    /* Others */
+    --font2: 'Outfit', sans-serif;
     --margin-sm: 2rem;
     --margin-md: 4rem;
+
     /* Dark Theme */
 
     /* 

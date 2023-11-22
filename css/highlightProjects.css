@@ -83,7 +83,7 @@
 
 .card-bottom {
     margin: 12px;
-    background-color: var(--white);
+    background-color: var(--background);
     border-radius: 33px;
     padding: 1rem;
     display: flex;
@@ -95,7 +95,7 @@
 
 .card-icon {
     border-radius: 1000px;
-    background-color: var(--ice);
+    background-color: var(--paper);
     padding: 9px;
     fill: var(--gray-dark);
 }
