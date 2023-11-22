@@ -1,39 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Outfit', sans-serif; */
 
 .heading-1 {
-    font-family: Impact;
+    font-family: 'Oswald', sans-serif;
     font-size: 86px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     line-height: normal;
     text-transform: uppercase;
-    
+
 }
-.hero-text h1{
+
+.hero-text h1 {
     margin-bottom: 16px;
 }
+
 .heading-2 {
-    font-family: Impact;
+    font-family: 'Oswald', sans-serif;
     font-size: 48px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 100%;
     text-wrap: wrap;
-    /* 48px */
-    letter-spacing: 1.44px;
+    line-break: auto;
     text-transform: uppercase;
-    
+
 }
 
 .heading-3 {
-    font-family: Impact;
+    font-family: 'Oswald', sans-serif;
     font-size: 32px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 100%;
     /* 32px */
     text-transform: uppercase;
-    
+
 }
 
 .tailing-1 {
@@ -79,7 +84,7 @@
     line-height: normal;
 }
 
-a{
+a {
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
     font-style: normal;
