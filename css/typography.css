@@ -1,37 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-/* font-family: 'Oswald', sans-serif;
+/* font-family: 'Outfit', sans-serif;
 font-family: 'Outfit', sans-serif; */
 
 .heading-1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 86px;
+    font-size: 62px;
+    font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    line-height: 92%;
     text-transform: uppercase;
-
 }
 
-.hero-text h1 {
-    margin-bottom: 16px;
+.container-content h1 {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 .heading-2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: 100%;
     text-wrap: wrap;
-    line-break: auto;
     text-transform: uppercase;
-
 }
 
 .heading-3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 900;

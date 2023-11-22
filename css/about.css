@@ -50,7 +50,7 @@
 }
 
 .about-text h3 {
-    margin-bottom: 24px;
+    margin-bottom: var(--margin-sm);
 }
 
 .qualification-details {
@@ -58,7 +58,7 @@
 }
 
 .about-carrer {
-    margin-bottom: 24px;
+    margin-bottom: var(--margin-md);
 }
 
 .skills-flex {
@@ -68,5 +68,5 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 24px;
+    margin-bottom: var(--margin-md);
 }

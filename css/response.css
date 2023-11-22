@@ -20,8 +20,13 @@
         flex-wrap: wrap;
         flex-direction: row;
     }
-    #home{
+
+    #home {
         display: block;
+    }
+
+    .heading-1 {
+        font-size: 70px;
     }
 
 }
@@ -39,9 +44,6 @@
     .navbar a {
         padding: 18px 20px;
     }
-
-
-
 }
 
 @media (min-width: 768px) {
@@ -62,6 +64,7 @@
         font-size: 46px;
         line-height: 76px;
     }
+
 }
 
 @media (min-width: 1024px) {
@@ -95,6 +98,7 @@
         justify-content: right;
         align-items: flex-start;
     }
+
     .tailing-1 {
         font-size: 52px;
         line-height: 76px;
