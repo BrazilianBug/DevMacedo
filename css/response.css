@@ -10,6 +10,28 @@
     padding: 1rem;
 }
 
+@media (min-width: 376px) {
+    .heading-1 {
+        font-size: 70px;
+    }
+
+    .text-1 {
+        font-size: 18px;
+
+    }
+
+    .text-2 {
+        font-size: 16px;
+    }
+
+    .navbar a {
+        padding: 18px 10px;
+
+    }
+
+}
+
+
 @media (min-width: 576px) {
     .container {
         width: 540px;
