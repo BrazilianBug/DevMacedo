@@ -62,6 +62,8 @@ font-family: 'Outfit', sans-serif; */
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    line-break: auto;
+    text-align: left;
 }
 
 .text-1 {
