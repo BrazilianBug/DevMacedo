@@ -35,11 +35,11 @@ header {
     color: var(--black)
 }
 
-#home{
+.home{
     display: none;
 }
 
-#hero {
+.hero {
     display: flex;
     flex-direction: column;
     height: 91vh;
