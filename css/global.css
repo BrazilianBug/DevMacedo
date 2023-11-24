@@ -12,11 +12,11 @@
     --text-secondary: var(--gray);
     --text-invert: var(--white);
     --text-default: var(--black);
-    --text-hover:var(--black);
-    
+    --text-hover: var(--black);
+
     /* Design */
     --background: var(--white);
-    --background-secondary: var(--dark);;
+    --background-secondary: var(--dark);
     --paper: var(--ice);
 
     /* Others */
@@ -58,13 +58,16 @@ h6 {
     word-wrap: break-word;
     word-break: break-word;
 }
-.text-primary{
+
+.text-primary {
     color: var(--text-primary);
 }
-.text-secondary{
+
+.text-secondary {
     color: var(--text-secondary);
 }
-.text-invert{
+
+.text-invert {
     color: var(--text-invert);
 }
 
