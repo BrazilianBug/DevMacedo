@@ -55,7 +55,7 @@
 
 @media (min-width: 640px) {
     .container {
-        width: 610px;
+        width: 600px;
         /* Ajuste conforme necessário */
     }
 
@@ -70,7 +70,7 @@
 
 @media (min-width: 768px) {
     .container {
-        width: 780px;
+        width: 732px;
         /* Ajuste conforme necessário */
     }
 
@@ -92,7 +92,7 @@
 @media (min-width: 1024px) {
 
     .container {
-        width: 992px;
+        width: 982px;
         /* lg: 992px */
     }
 

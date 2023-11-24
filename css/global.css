@@ -37,7 +37,6 @@ body {
     background-color: var(--background);
 }
 
-
 * {
     padding: 0px;
     outline: none;
@@ -61,6 +60,9 @@ h6 {
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
+}
+.text-primary{
+    color: var(--text-primary);
 }
 
 .white {
