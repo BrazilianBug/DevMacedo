@@ -52,7 +52,7 @@
 
 @media (min-width: 640px) {
     .container {
-        width: 600px;
+        width: 560px;
     }
 
     .about-image {
@@ -84,7 +84,7 @@
 @media (min-width: 1024px) {
 
     .container {
-        width: 982px;
+        width: 960px;
         
     }
 
