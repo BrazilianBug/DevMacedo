@@ -15,7 +15,7 @@ header {
 }
 
 .navbar {
-    background: var(--white);
+    background: var(--background);
     padding-inline: 36px;
     border-radius: 1000px;
     display: flex;
@@ -26,13 +26,12 @@ header {
 }
 
 .navbar a {
-    font-family: var(--font2);
     padding: 18px 4px;
-    color: var(--black-gray);
+    color: var(--text-primary);
 }
 
 .navbar a:hover {
-    color: var(--black)
+    color: var(--text-hover)
 }
 
 .home{
@@ -104,7 +103,7 @@ header {
 }
 
 .container-content {
-    color: var(--white);
+    color: var(--text-invert);
     text-align: start;
     display: flex;
     flex-wrap: nowrap;

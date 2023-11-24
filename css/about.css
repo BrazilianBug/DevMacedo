@@ -1,5 +1,19 @@
 .about {
     margin-bottom: 42px;
+
+}
+
+.about-head p{
+    color: var(--text-secondary);
+}
+.about-content{
+    color: var(--text-primary);
+}
+.about-head h3{
+    color: var(--text-primary)
+}
+.about-content p{
+    color:  var(--text-default);
 }
 
 .about-head {
@@ -23,6 +37,7 @@
     align-items: center;
     align-content: center;
     gap: 26px;
+    
 }
 
 .about-content div {

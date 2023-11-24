@@ -97,15 +97,14 @@
     align-content: center;
     align-items: center;
     gap: 4px;
+    color: var(--text-primary);
 }
 
 
 .card-icon {
     border-radius: 1000px;
     background-color: var(--paper);
-    padding: 9px;
-    fill: var(--gray-dark);
-    
+    padding: 9px;  
 }
 
 

@@ -6,6 +6,7 @@
 .container {
     margin: 0 auto;
     padding: 1rem;
+    max-width: 1400px; /* Ajuste o valor conforme necessário */
 }
 
 @media (min-width: 376px) {
@@ -15,7 +16,6 @@
 
     .text-1 {
         font-size: 18px;
-
     }
 
     .text-2 {
@@ -24,15 +24,12 @@
 
     .navbar a {
         padding: 18px 10px;
-
     }
-
 }
-
 
 @media (min-width: 576px) {
     .container {
-        width: 540px;
+        max-width: 540px;
     }
 
     .about-content {
@@ -47,12 +44,11 @@
     .heading-1 {
         font-size: 70px;
     }
-
 }
 
 @media (min-width: 640px) {
     .container {
-        width: 560px;
+        max-width: 560px;
     }
 
     .about-image {
@@ -66,26 +62,22 @@
 
 @media (min-width: 768px) {
     .container {
-        width: 732px;
+        max-width: 732px;
     }
 
     .footer-social {
         display: flex;
-
     }
 
     .tailing-1 {
         font-size: 46px;
         line-height: 76px;
     }
-
 }
 
 @media (min-width: 1024px) {
-
     .container {
-        width: 960px;
-        
+        max-width: 960px;
     }
 
     .highlights {
@@ -114,23 +106,19 @@
     }
 
     .tailing-1 {
-        font-size: 52px;
+        font-size: 62px;
         line-height: 76px;
     }
-
 }
 
 @media (min-width: 1280px) {
     .container {
-        width: 1140px;
-       
+        max-width: 1140px;
     }
-
 }
 
 @media (min-width: 1536px) {
     .container {
-        width: 1400px;
-        
+        max-width: 1400px;
     }
 }

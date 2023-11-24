@@ -1,8 +1,9 @@
 footer {
     border-radius: 33px 33px 0px 0px;
-    background-color: var(--gray-dark);
+    background-color: var(--background-secondary);
     margin: 0px 12px;
     margin-top: 50px;
+    color: var(--text-invert);
 }
 
 .footer-social {

@@ -11,8 +11,8 @@
 .badge {
     padding: 2px 12px;
     border-radius: 100px;
-    color: white;
-    background-color: var(--gray-dark);
+    color: var(--text-invert);
+    background-color: var(--background-secondary);
     display: inline;
     font-family: 'Outfit', sans-serif;
     font-size: 16px;

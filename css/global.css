@@ -11,6 +11,8 @@
     --text-primary: var(--gray-dark);
     --text-secondary: var(--gray);
     --text-invert: var(--white);
+    --text-default: var(--black);
+    --text-hover:var(--black);
     
     /* Design */
     --background: var(--white);
@@ -23,16 +25,9 @@
     --margin-md: 4rem;
 
     /* Dark Theme */
-
-    /* 
-    --white: #000000;
-    --background: #1E1E1E;
-    --gray: #9E9E9E;
-    --ice: #F4F4F4;
-    --gray-dark: #1E1E1E;
-    --black: #ffffff;
-    */
 }
+
+
 
 /* Dark Theme */
 body {
