@@ -10,6 +10,7 @@
     /* Typography */
     --text-primary: var(--gray-dark);
     --text-secondary: var(--gray);
+    --text-contrast:  var(--ice);
     --text-invert: var(--white);
     --text-default: var(--black);
     --text-hover: var(--black);
@@ -17,12 +18,14 @@
     /* Design */
     --background: var(--white);
     --background-secondary: var(--dark);
+    --background-secondary-dark: var(--black);
     --paper: var(--ice);
 
     /* Others */
     --font2: 'Outfit', sans-serif;
     --margin-sm: 2rem;
     --margin-md: 4rem;
+    --border: 32px;
 
     /* Dark Theme */
 }
