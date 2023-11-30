@@ -11,7 +11,12 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
 }
-
+.footer-bg{
+    background: url(../assets/texture.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px)
+}
 .footer-top {
     margin-bottom: 2rem;
 }

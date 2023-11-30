@@ -25,7 +25,14 @@
     --font2: 'Outfit', sans-serif;
     --margin-sm: 2rem;
     --margin-md: 4rem;
-    --border: 32px;
+    --padding-sm: 2rem;
+    --padding-md: 4rem;
+    --border-r: 32px;
+
+    --value-xs: 1rem;
+    --value-sm: 2rem;
+    --value-md: 4rem;
+    --value-lg: 6rem;
 
     /* Dark Theme */
 }

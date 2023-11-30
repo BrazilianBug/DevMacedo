@@ -3,12 +3,14 @@
     justify-content: center;
     align-items: stretch;
     gap: 1rem;
+    margin-bottom: var(--value-sm);
 }
 
 .hero-project div {
     display: flex;
     width: 100%;
     padding: 2rem;
+    border-radius: var(--value-sm);
 }
 
 .hero-image {
@@ -20,6 +22,13 @@
     color: var(--text-contrast);
     background-color: var(--background-secondary);
     border-radius: var(--border);
+}
+
+.hero-intro {
+    background: url(../assets/texture.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px)
 }
 
 
@@ -35,7 +44,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.tech-flex{
+
+.tech-flex {
     display: flex;
     align-items: start;
     justify-content: flex-start;
@@ -45,8 +55,24 @@
     padding: 0px;
     padding-top: 6px;
 }
-/* 
-.border {
+
+
+.card--list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--value-sm);
+}
+
+.details--card .title-1 {
+    font-weight: bold;
+}
+.details--intro{
+    margin-bottom: var(--value-xs);
+}
+
+.details--thumb {
     border: 1px solid red;
-    margin: 2px;
-} */
+    width: 100%;
+    height: 80vh;
+    border-radius: var(--value-sm);
+}

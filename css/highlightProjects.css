@@ -84,9 +84,6 @@
     z-index: -1;
     transition: .5s;
 }
-
-
-
 .card-bottom {
     margin: 12px;
     background-color: var(--background);
