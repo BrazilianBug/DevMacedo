@@ -53,7 +53,9 @@ body {
 }
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 a,
 p,
 h1,
