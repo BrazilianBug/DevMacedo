@@ -3,11 +3,6 @@
         --containerHeight: 100;
 }
 
-.logo {
-    flex-shrink: 0;
-    display: flex;
-}
-
 .badge {
     padding: 2px 12px;
     border-radius: 100px;
@@ -46,9 +41,4 @@
 .button:hover {
     transition: ease-in-out .5s;
     color: var(--black);
-}
-
-.about-pic {
-    width: 100%;
-    height: auto;
 }

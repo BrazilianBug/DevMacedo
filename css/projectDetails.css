@@ -37,12 +37,6 @@
 }
 
 
-.project--details-thumb {
-    border-radius: 33px;
-    padding: 33px;
-    height: 80vh;
-}
-
 #financial-app {
     background: url(../assets/images/private-thumb.png);
     background-position: center;
@@ -60,7 +54,6 @@
     padding: 0px;
     padding-top: 6px;
 }
-
 
 .card--list {
     display: flex;
