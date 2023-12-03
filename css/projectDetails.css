@@ -1,6 +1,7 @@
 .hero-project {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: stretch;
     gap: 1rem;
     margin-bottom: var(--value-sm);
@@ -15,6 +16,7 @@
 
 .hero-image {
     border-radius: 33px;
+    min-height: 50vh;
 }
 
 .hero-intro {
@@ -66,7 +68,8 @@
 .details--card .title-1 {
     font-weight: bold;
 }
-.details--intro{
+
+.details--intro {
     margin-bottom: var(--value-xs);
 }
 
