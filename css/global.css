@@ -10,7 +10,7 @@
     /* Typography */
     --text-primary: var(--gray-dark);
     --text-secondary: var(--gray);
-    --text-contrast:  var(--ice);
+    --text-contrast: var(--ice);
     --text-invert: var(--white);
     --text-default: var(--black);
     --text-hover: var(--black);
@@ -37,7 +37,15 @@
     /* Dark Theme */
 }
 
+::selection {
+    background-color: var(--background-secondary);
+    color: var(--text-contrast);
+}
 
+::-webkit-selection {
+    background-color: var(--background-secondary);
+    color: var(--text-contrast);
+}
 
 /* Dark Theme */
 body {
@@ -54,9 +62,10 @@ body {
 }
 
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 a,
 p,
 h1,

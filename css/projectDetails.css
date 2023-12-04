@@ -29,16 +29,9 @@
     border-radius: var(--border);
 }
 
-.hero-intro {
-    background: url(../assets/texture.jpeg);
-    background-repeat: repeat;
-    background-size: cover;
-    backdrop-filter: blur(5px)
-}
-
 
 #financial-app {
-    background: url(../assets/images/private-thumb.png);
+    background: url(../assets/images/financialapp/main.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,7 +63,5 @@
 }
 
 .details--thumb {
-    width: 100%;
-    height: 80vh;
     border-radius: var(--value-sm);
 }
