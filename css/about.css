@@ -73,7 +73,7 @@
 }
 
 .about-carrer {
-    margin-bottom: var(--margin-md);
+    margin-bottom: var(--margin-sm);
 }
 
 .skills-flex {
@@ -83,5 +83,5 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: var(--margin-md);
+    margin-bottom: var(--margin-sm);
 }

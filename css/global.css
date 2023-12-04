@@ -38,6 +38,26 @@
     /* Dark Theme */
 }
 
+.hero-project ::selection {
+    background-color: var(--background);
+    color: var(--text-primary);
+}
+
+.hero-project ::-webkit-selection {
+    background-color: var(--background);
+    color: var(--text-primary);
+}
+
+footer ::selection {
+    background-color: var(--background);
+    color: var(--text-primary);
+}
+
+footer ::-webkit-selection {
+    background-color: var(--background);
+    color: var(--text-primary);
+}
+
 ::selection {
     background-color: var(--background-secondary);
     color: var(--text-contrast);
