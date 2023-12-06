@@ -1,21 +1,22 @@
-.header-details{
-    padding-top: 15px;
+.header-details {
+    padding-top: var(--value-xs);
     display: flex;
-   align-items: center;
+    align-items: center;
     justify-content: flex-end;
     overflow: hidden;
     left: 100;
     right: 0;
     margin-left: 0;
-    margin-right: 1rem; 
+    margin-right: var(--value-xs);
     z-index: 1;
     position: fixed;
     height: 10vh;
 }
+
 .icon-leave {
     border-radius: 1000px;
     background-color: var(--paper);
-    padding: 9px;
+    padding: var(--value-xxs)
 }
 
 .card-icon img:hover {
@@ -38,14 +39,14 @@
     justify-content: center;
     flex-direction: column;
     align-items: stretch;
-    gap: 1rem;
+    gap: var(--value-xs);
     margin-bottom: var(--value-sm);
     margin-top: var(--value-sm);
 }
 
 .hero-project div {
     display: flex;
-    padding: 2rem;
+    padding: var(--value-sm);
     border-radius: var(--value-sm);
 }
 
@@ -63,6 +64,15 @@
     color: var(--text-contrast);
     background-color: var(--background-secondary);
     border-radius: var(--border);
+}
+
+.hero-intro .title-1 {
+    padding-bottom: var(--value-xxs);
+    padding-top: var(--value-xs);
+}
+
+.hero-intro .text-2 {
+    padding-bottom: var(--value-xs);
 }
 
 
