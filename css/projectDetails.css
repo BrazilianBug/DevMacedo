@@ -55,7 +55,40 @@
     min-height: 50vh;
     width: 100%;
     box-sizing: border-box;
+    background-position: center bottom;
+    background-size: cover;
+
 }
+
+#financial-app {
+    background-image: url(../assets/images/financialapp/cover.webp);
+}
+
+#bloca-tool {
+    background-image: url(../assets/images/blocatool/cover.webp);
+}
+
+#crypto-dingoes {
+    background: url(../assets/images/cryptodingoes/cover.webp);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#cursedstone {
+    background: url(../assets/images/cursedstone/cover.webp);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+
+#rarecoin {
+    background: url(../assets/images/rarecoin/cover.webp);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+
+
 
 .hero-intro {
     width: 100%;
@@ -76,12 +109,7 @@
 }
 
 
-#financial-app {
-    background: url(../assets/images/financialapp/main.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .tech-flex {
     display: flex;
