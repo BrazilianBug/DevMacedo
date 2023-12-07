@@ -63,7 +63,7 @@
     margin: 12px;
     background-color: var(--background);
     border-radius: 33px;
-    padding: 1rem;
+    padding: var(--value-xs);
     display: flex;
     justify-content: space-between;
     align-content: center;

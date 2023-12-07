@@ -13,8 +13,8 @@ font-family: 'Outfit', sans-serif; */
 }
 
 .container-content h1 {
-    padding-bottom: 2rem;
-    padding-top: 1rem;
+    padding-bottom: var(--value-sm);
+    padding-top: var(--value-xs)
 }
 
 .heading-2 {
