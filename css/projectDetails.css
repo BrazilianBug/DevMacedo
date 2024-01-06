@@ -1,141 +1,133 @@
 .header-details {
-    padding-top: var(--value-xs);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    overflow: hidden;
-    left: 100;
-    right: 0;
-    margin-left: 0;
-    margin-right: var(--value-xs);
-    z-index: 1;
-    position: fixed;
-    height: 10vh;
+  padding-top: var(--value-xs);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  left: 100;
+  right: 0;
+  margin-left: 0;
+  margin-right: var(--value-xs);
+  z-index: 1;
+  position: fixed;
+  height: 10vh;
 }
 
 .icon-leave {
-    border-radius: 1000px;
-    background-color: var(--paper);
-    padding: var(--value-xxs)
+  border-radius: 1000px;
+  background-color: var(--paper);
+  padding: var(--value-xxs);
 }
 
 .card-icon img:hover {
-    cursor: pointer;
-    transform: rotate(360deg);
-    transition: ease .5s;
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition: ease 0.5s;
 }
 
 .header-action a {
-    padding: 18px 4px;
-    color: var(--text-primary);
+  padding: 18px 4px;
+  color: var(--text-primary);
 }
 
 .header-action a:hover {
-    color: var(--text-hover)
+  color: var(--text-hover);
 }
 
 .hero-project {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: stretch;
-    gap: var(--value-xs);
-    margin-bottom: var(--value-sm);
-    margin-top: var(--value-sm);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--value-xs);
+  margin-bottom: var(--value-sm);
+  margin-top: var(--value-sm);
 }
 
 .hero-project div {
-    display: flex;
-    padding: var(--value-sm);
-    border-radius: var(--value-sm);
+  display: flex;
+  padding: var(--value-sm);
+  border-radius: var(--value-sm);
 }
 
 .hero-image {
-    border-radius: 33px;
-    min-height: 50vh;
-    width: 100%;
-    box-sizing: border-box;
-    background-position: center bottom;
-    background-size: cover;
-
+  border-radius: 33px;
+  min-height: 50vh;
+  width: 100%;
+  box-sizing: border-box;
+  background-position: center bottom;
+  background-size: cover;
 }
 
 #financial-app {
-    background-image: url(../assets/images/financialapp/cover.webp);
+  background-image: url(../assets/images/financialapp/cover.webp);
 }
 
 #bloca-tool {
-    background-image: url(../assets/images/blocatool/cover.webp);
+  background-image: url(../assets/images/blocatool/cover.webp);
 }
 
 #crypto-dingoes {
-    background: url(../assets/images/cryptodingoes/cover.webp);
-    background-position: center bottom;
-    background-size: cover;
+  background: url(../assets/images/cryptodingoes/cover.webp);
+  background-position: center bottom;
+  background-size: cover;
 }
 
 #cursedstone {
-    background: url(../assets/images/cursedstone/cover.webp);
-    background-position: center bottom;
-    background-size: cover;
+  background: url(../assets/images/cursedstone/cover.webp);
+  background-position: center bottom;
+  background-size: cover;
 }
-
 
 #rarecoin {
-    background: url(../assets/images/rarecoin/cover.webp);
-    background-position: center bottom;
-    background-size: cover;
+  background: url(../assets/images/rarecoin/cover.webp);
+  background-position: center bottom;
+  background-size: cover;
 }
 
-
-
-
 .hero-intro {
-    width: 100%;
-    box-sizing: border-box;
-    flex-direction: column;
-    color: var(--text-contrast);
-    background-color: var(--background-secondary);
-    border-radius: var(--border);
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+  color: var(--text-contrast);
+  background-color: var(--bg-secondary);
+  border-radius: var(--border);
 }
 
 .hero-intro .title-1 {
-    padding-bottom: var(--value-xxs);
-    padding-top: var(--value-xs);
+  padding-bottom: var(--value-xxs);
+  padding-top: var(--value-xs);
 }
 
 .hero-intro .text-2 {
-    padding-bottom: var(--value-xs);
+  padding-bottom: var(--value-xs);
 }
 
-
-
-
 .tech-flex {
-    display: flex;
-    align-items: start;
-    justify-content: flex-start;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
-    padding-top: 6px;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 6px;
 }
 
 .card--list {
-    display: flex;
-    flex-direction: column;
-    gap: var(--value-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--value-sm);
 }
 
 .details--card .title-1 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .details--intro {
-    margin-bottom: var(--value-xs);
+  margin-bottom: var(--value-xs);
 }
 
 .details--thumb {
-    border-radius: var(--value-sm);
+  border-radius: var(--value-sm);
 }

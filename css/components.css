@@ -7,7 +7,7 @@
     padding: 2px 12px;
     border-radius: 100px;
     color: var(--text-invert);
-    background-color: var(--background-secondary);
+    background-color: var(--bg-secondary);
     display: inline;
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
@@ -31,7 +31,7 @@
 }
 
 .button {
-    background-color: var(--background);
+    background-color: var(--bg);
     color: var(--gray-dark);
     padding: 15px 62px;
     border-radius: 1000px;

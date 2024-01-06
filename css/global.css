@@ -1,92 +1,106 @@
+
 :root {
-    /* Colors */
-    --white: #FFF;
-    --gray: #5e5e5e;
-    /* --gray: #9E9E9E; */
-    --ice: #F4F4F4;
-    --gray-dark: #1E1E1E;
-    --dark: #1d1d1d;
-    --black: #000000;
+  /* Colors */
+  --white: #fff;
+  --gray: #5e5e5e;
+  /* --gray: #9E9E9E; */
+  --ice: #f4f4f4;
+  --gray-dark: #1e1e1e;
+  --dark: #1d1d1d;
+  --black: #000000;
 
-    /* Typography */
-    --text-primary: var(--gray-dark);
-    --text-secondary: var(--gray);
-    --text-contrast: var(--ice);
-    --text-invert: var(--white);
-    --text-default: var(--black);
-    --text-hover: var(--black);
+  /* Typography */
+  --text-primary: var(--gray-dark);
+  --text-secondary: var(--gray);
+  --text-contrast: var(--ice);
+  --text-invert: var(--white);
+  --text-default: var(--black);
+  --text-hover: var(--black);
 
-    /* Design */
-    --background: var(--white);
-    --background-secondary: var(--dark);
-    --background-secondary-dark: var(--black);
-    --paper: var(--ice);
+  /* Design */
+  --bg: var(--white);
+  --bg-secondary: var(--dark);
+  --bg-secondary-dark: var(--black);
+  --paper: var(--ice);
 
-    /* Others */
-    --font2: 'Outfit', sans-serif;
-    --margin-sm: 2rem;
-    --margin-md: 4rem;
-    --padding-sm: 2rem;
-    --padding-md: 4rem;
-    --border-r: 32px;
+  /* Others */
+  --font2: "Outfit", sans-serif;
+  --margin-sm: 2rem;
+  --margin-md: 4rem;
+  --padding-sm: 2rem;
+  --padding-md: 4rem;
+  --border-r: 32px;
 
-    --value-xxs: 0.5rem;
-    --value-xs: 1rem;
-    --value-sm: 2rem;
-    --value-md: 4rem;
-    --value-lg: 6rem;
+  --value-xxs: 0.5rem;
+  --value-xs: 1rem;
+  --value-sm: 2rem;
+  --value-md: 4rem;
+  --value-lg: 6rem;
 
-    /* Dark Theme */
+  /* Dark Theme */
 }
 
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in-up {
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+
 .hero-project ::selection {
-    background-color: var(--background);
-    color: var(--text-primary);
+  background-color: var(--bg);
+  color: var(--text-primary);
 }
 
 .hero-project ::-webkit-selection {
-    background-color: var(--background);
-    color: var(--text-primary);
+  background-color: var(--bg);
+  color: var(--text-primary);
 }
 
 footer ::selection {
-    background-color: var(--background);
-    color: var(--text-primary);
+  background-color: var(--bg);
+  color: var(--text-primary);
 }
 
 footer ::-webkit-selection {
-    background-color: var(--background);
-    color: var(--text-primary);
+  background-color: var(--bg);
+  color: var(--text-primary);
 }
 
 ::selection {
-    background-color: var(--background-secondary);
-    color: var(--text-contrast);
+  background-color: var(--bg-secondary);
+  color: var(--text-contrast);
 }
 
 ::-webkit-selection {
-    background-color: var(--background-secondary);
-    color: var(--text-contrast);
+  background-color: var(--bg-secondary);
+  color: var(--text-contrast);
 }
 
 /* Dark Theme */
 body {
-    background-color: var(--background);
-    box-sizing: border-box;
+  background-color: var(--bg);
+  box-sizing: border-box;
 }
-
 
 * {
-    padding: 0px;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    margin: 0px;
+  padding: 0px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  margin: 0px;
 }
 
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 a,
@@ -97,52 +111,49 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0px;
-    padding: 0px;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
+  margin: 0px;
+  padding: 0px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .text-primary {
-    color: var(--text-primary);
+  color: var(--text-primary);
 }
 
 .text-secondary {
-    color: var(--text-secondary);
+  color: var(--text-secondary);
 }
 
 .text-invert {
-    color: var(--text-invert);
+  color: var(--text-invert);
 }
 
-
-
 .white {
-    color: var(--white);
+  color: var(--white);
 }
 
 .gray {
-    color: var(--gray);
+  color: var(--gray);
 }
 
 .gray-dark {
-    color: var(--gray-dark);
+  color: var(--gray-dark);
 }
 
 .black {
-    color: var(--black);
+  color: var(--black);
 }
 
 html {
-    margin: 0 auto;
-}
-
-
-.text-white {
-    color: var(--white)
+  margin: 0 auto;
 }
 
 .text-white {
-    color: var(--white)
+  color: var(--white);
+}
+
+.text-white {
+  color: var(--white);
 }
