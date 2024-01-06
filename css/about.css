@@ -1,87 +1,85 @@
 .about {
-    margin-bottom: 42px;
-
+  margin-bottom: 42px;
 }
 
-.about-head p{
-    color: var(--text-secondary);
+.about-head p {
+  color: var(--text-secondary);
 }
-.about-content{
-    color: var(--text-primary);
+.about-content {
+  color: var(--text-primary);
 }
-.about-head h3{
-    color: var(--text-primary)
+.about-head h3 {
+  color: var(--text-primary);
 }
-.about-content p{
-    color:  var(--text-default);
+.about-content p {
+  color: var(--text-default);
 }
 
 .about-head {
-    padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .about .about-head {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .about-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 26px;
-    
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 26px;
 }
 
 .about-content div {
-    width: 100%;
+  width: 100%;
 }
 
 .about-image,
 .about-text {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: start;
-    order: 0;
-    max-width: 100%;
-    text-align: justify;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: start;
+  order: 0;
+  max-width: 100%;
+  text-align: justify;
 }
 
 .about-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  max-width: 100%;
 }
 
 .about-text h3 {
-    margin-bottom: var(--margin-sm);
+  margin-bottom: var(--margin-sm);
 }
 
 .qualification-details {
-    padding-bottom: 16px;
+  padding-bottom: 16px;
 }
 
-.about-carrer {
-    margin-bottom: var(--margin-sm);
+.about-career {
+  margin-bottom: var(--margin-sm);
 }
 
 .skills-flex {
-    display: flex;
-    justify-content: start;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: var(--margin-sm);
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: var(--margin-sm);
 }
